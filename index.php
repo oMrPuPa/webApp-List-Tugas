@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <h1>Hello! Project Web Started</h1>
-
+    <h2>Hello username</h2>
+    <h2>search Tugas</h2>
+    <h2>add</h2>
+    <h2>edit</h2>
+    <hr>
     <script src="script.js"></script>
 </body>
 </html>
