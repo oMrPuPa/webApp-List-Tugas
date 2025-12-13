@@ -9,5 +9,5 @@ CREATE TABLE tugas (
     status ENUM('Belum', 'Sudah') DEFAULT 'Belum'
 );
 
-INSERT INTO tugas (nama_tugas, deskripsi, tanggal_deadline, status) VALUES
+INSERT INTO tugas (nama_tugas, deskripsi, tanggal_deadline, tugas_stts) VALUES
 ('Praktikum Pweb', 'Ujian_Projek_Akhir', '2025-12-14', 'Belum');
