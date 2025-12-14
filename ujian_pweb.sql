@@ -11,3 +11,7 @@ CREATE TABLE tugas (
 
 INSERT INTO tugas (nama_tugas, deskripsi, tanggal_deadline, tugas_stts) VALUES
 ('Praktikum Pweb', 'Ujian_Projek_Akhir', '2025-12-14', 'Belum');
+
+-- mengganti kolom status menjadi tugas_stts dengan tipe data INT
+ALTER TABLE tugas
+CHANGE COLUMN status tugas_stts INT(1) DEFAULT 0;
